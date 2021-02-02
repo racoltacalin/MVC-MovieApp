@@ -28,28 +28,32 @@ namespace MvcMovie.Models
                         Title = "Soul",
                         ReleaseDate = DateTime.Parse("2020-2-12"),
                         Genre = "Animation",
-                        Price = 10.3M
+                        Price = 10.3M,
+                        Rating = "A"
                     },
                     new Movie
                     {
                         Title = "Once Upon a Time in Hollywood",
                         ReleaseDate = DateTime.Parse("2019-6-26"),
                         Genre = "Drama",
-                        Price = 7.4M
+                        Price = 7.4M,
+                        Rating = "D"
                     },
                     new Movie
                     {
                         Title = "Titanic",
                         ReleaseDate = DateTime.Parse("1997-12-19"),
                         Genre = "Drama",
-                        Price = 20.18M
+                        Price = 20.18M,
+                        Rating = "D"
                     },
                     new Movie
                     {
                         Title = "Disney's Frozen",
                         ReleaseDate = DateTime.Parse("2000-3-5"),
                         Genre = "Disney",
-                        Price = 3.06M
+                        Price = 3.06M,
+                        Rating = "C"
                     }
                 );
                 context.SaveChanges();
