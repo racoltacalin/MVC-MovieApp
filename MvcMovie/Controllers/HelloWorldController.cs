@@ -16,10 +16,15 @@ namespace MvcMovie.Controllers
         }
 
         // Get: /HelloWorld/Welcome/
-        public string Welcome(string name, int ID = 1)
+        public IActionResult Welcome(string name, int numTimes = 1)
         {
             // Uses HtmlEncoder.Default.Encode to protect the app from malicious input (namely JavaScript)
-            return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
+            //return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
+
+            ViewData["Message"] = "Hello " + name;
+            ViewData["NumTimes"] = numTimes;
+
+            return View();
         }
     }
 }

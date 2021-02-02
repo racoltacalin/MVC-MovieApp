@@ -39,3 +39,4 @@ D:\LEARNING-ASPNETCOREMVC\MvcMovie\MvcMovie\obj\Debug\net5.0\MvcMovie.pdb
 D:\LEARNING-ASPNETCOREMVC\MvcMovie\MvcMovie\obj\Debug\net5.0\MvcMovie.genruntimeconfig.cache
 D:\LEARNING-ASPNETCOREMVC\MvcMovie\MvcMovie\obj\Debug\net5.0\MvcMovie.csproj.CopyComplete
 D:\LEARNING-ASPNETCOREMVC\MvcMovie\MvcMovie\obj\Debug\net5.0\Razor\Views\HelloWorld\Index.cshtml.g.cs
+D:\LEARNING-ASPNETCOREMVC\MvcMovie\MvcMovie\obj\Debug\net5.0\Razor\Views\HelloWorld\Welcome.cshtml.g.cs
