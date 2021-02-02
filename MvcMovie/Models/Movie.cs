@@ -20,6 +20,5 @@ namespace MvcMovie.Models
         [Column(TypeName = "decimal(18,2)")] //https://mattferderer.com/entity-framework-no-type-was-specified-for-the-decimal-column
         public decimal Price { get; set; }
         public string Rating { get; set; }
-
     }
 }
